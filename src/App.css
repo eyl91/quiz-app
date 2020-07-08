@@ -24,6 +24,10 @@ body {
   font-family: sans-serif;
 }
 
+.App {
+  overflow: hidden;
+}
+
 .container {
   position: relative;
   max-width: 800px;

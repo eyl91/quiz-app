@@ -121,7 +121,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src="https://www.nationalparks.org/sites/default/files/yosemite-merced.jpg" className="App-logo" alt="logo" />
+          {/* <img src="https://www.nationalparks.org/sites/default/files/yosemite-merced.jpg" className="App-logo" alt="logo" /> */}
           <h2>React Quiz</h2>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
